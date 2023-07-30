@@ -1,0 +1,19 @@
+* {
+  width: 0;
+  padding: 0;
+}
+div{
+    width: 250px;
+    height: 250px;
+    background-color: darkblue;
+    position: absolute;
+    left: calc(50% - 250px/2);
+    top: calc(45% - 250px/2);
+    cursor: grab;
+    text-align: center;
+    line-height: 250px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
